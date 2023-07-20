@@ -10,7 +10,7 @@ Notes: Mecanum Movements Inspired by https://www.researchgate.net/profile/Jin-Ga
 """
 
 import time
-from MotorLib import *
+from TB6612Library import *
 
 #Motor(IN1,IN2,PWM,STANDBY,(Reverse polarity?))
 frontLeft = Motor(17,27,22,8,False)
