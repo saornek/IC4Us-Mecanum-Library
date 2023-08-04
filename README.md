@@ -65,14 +65,8 @@ Apply the brake to the motor.
 #### standby(value)
 Set the standby mode for the motor.
 
-## License
-This library is licensed under the [MIT License.](https://opensource.org/license/mit/)
-
 ## Contributions
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the GitHub repository.
 
 ## Support
 For any questions or support related to this library, you can contact me via the repository issues page.
-
-## Acknowledgments
-...
