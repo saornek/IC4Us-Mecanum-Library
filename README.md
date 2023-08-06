@@ -2,7 +2,7 @@
 
 Mecanum Motor Library in action with this demonstration video:
 
-![Video](example.png)
+[![Link to my YouTube video!](https://github.com/saornek/IC4Us-Mecanum-Library/blob/main/example.png?raw=true)](https://www.youtube.com/watch?v=rL-WXS1ft9E)
 
 To see more of IC4U, visit my [YouTube channel](https://www.youtube.com/@Selinoid).
 
