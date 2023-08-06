@@ -1,5 +1,13 @@
 # IC4U's Mecanum Library
 
+Mecanum Motor Library in action with this demonstration video:
+
+![Video](example.png)
+
+To see more of IC4U, visit my [YouTube channel](https://www.youtube.com/@Selinoid).
+
+---
+
 ## Overview
 
 The Mecanum Motor Library is a Python library designed for controlling Mecanum wheels or motors using the Adafruit TB6612 motor controller. The library allows easy and efficient control of Mecanum wheels, enabling omnidirectional movement for your robotics projects.
