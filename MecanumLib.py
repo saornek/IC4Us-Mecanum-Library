@@ -3,9 +3,9 @@
 """
 Author: saornek
 Date: 08/04/2022
-Last Updated: 08/13/2022
-Status: working
-Purpose: Created for IC4U3 - Mecanum motor control with Adafruit TB6612
+Last Updated: 08/06/2023
+Purpose: Created for IC4U3 - Mecanum motor control with Adafruit TB6612.
+Update: Added control test code below.
 Notes: Mecanum Movements Inspired by https://www.researchgate.net/profile/Jin-Gang-Jiang-2/publication/307868549/figure/fig2/AS:713745810599936@1547181670156/Fig-5-Top-view-of-turning-principle-of-Mecanum-wheel.png
 """
 
@@ -68,3 +68,22 @@ def fullTurnRight(speed):
         
     frontRight.backward(speed);
     backRight.backward(speed);
+
+while True:
+    inputCommand = input("Command? ")
+    if inputCommand == "s":
+        stop()
+    else:
+        inputS = int(input("Speed?(0-100) "))
+        if inputCommand == "f":
+            forward(inputS)
+        elif inputCommand == "b":
+            backward(inputS)
+        elif inputCommand == "cl":
+            crabLeft(inputS)
+        elif inputCommand == "cr":
+            crabRight(inputS)
+        elif inputCommand == "fl":
+            fullTurnLeft(inputS)
+        elif inputCommand == "fr":
+            fullTurnRight(inputS)
