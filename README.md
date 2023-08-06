@@ -35,7 +35,7 @@ time.sleep(2)
 stop()
 ```
 
-## API Reference
+## Reference
 ### Motor class
 #### Motor(in1, in2, pwm, standbyPin, reverse)
 The Motor class represents a motor connected to the Adafruit TB6612 motor controller.
