@@ -12,8 +12,11 @@ To use the Mecanum Motor Library, you need to have Python and the RPi.GPIO libra
 pip install adafruit-circuitpython-motorkit
 ```
 
-
 Next, place the TB6612Library.py and MecanumLib.py files in the same directory as your project.
+
+```bash
+git clone https://github.com/saornek/IC4Us-Mecanum-Library.git
+```
 
 ## Usage
 Here's a simple example of how to use the Mecanum Motor Library to control a robot with Mecanum wheels:
@@ -34,6 +37,10 @@ time.sleep(2)
 # Stop the robot
 stop()
 ```
+## Warning
+The movement configurations provided in the Mecanum Library code may vary depending on the physical placement and connection of the motors in your specific robot. The code assumes a IC4U's motor arrangement based on the provided GPIO pin numbers, but the physical arrangement of your motors may differ. Therefore, before using the library, ensure that you have correctly identified the correct motor placements.
+
+To avoid unexpected behavior or damage to your robot, it is crucial to carefully review the motor connections and placements in your robot's hardware setup. If your motor arrangement differs from the default configuration assumed by the library, you may need to modify the code accordingly.
 
 ## Reference
 ### Motor class
